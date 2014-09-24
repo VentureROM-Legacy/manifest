@@ -7,7 +7,7 @@
 
   <remote  name="github"
            fetch="https://github.com"
-           review="gerrit.hostingsharedbox.com" />
+           review="gerrit.aospal.com" />
 
   <remote  name="legacy-blobs"
            fetch="https://github.com/ThankYouLuigi" />
@@ -22,7 +22,7 @@
            fetch="git://github.com"
            review="review.cyanogenmod.org" />
 
-  <default revision="refs/tags/android-4.4.4_r1"
+  <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
            sync-c="true"
            sync-f="true"
@@ -228,7 +228,7 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform/external/openssh" />
+  <project path="external/openssh" name="CyanogenMod/android_external_openssh" remote="cm" revision="cm-11.0" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="cm" revision="cm-11.0" />
@@ -294,7 +294,7 @@
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
-  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
+  <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
@@ -355,19 +355,19 @@
   <project path="packages/apps/InCallUI" name="VentureROM-Legacy/android_packages_apps_InCallUI" remote="github" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Lightbulb" name="VentureROM-Legacy/android_packages_apps_Lightbulb" remote="github" revision="kitkat" />
+  <project path="packages/apps/Lightbulb" name="VentureROM/android_packages_apps_Lightbulb" remote="github" revision="kitkat" />
   <project path="packages/apps/Mms" name="VentureROM-Legacy/android_packages_apps_Mms" remote="github" revision="kitkat" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/ParanoidOTA" name="VentureROM-Legacy/android_packages_apps_ParanoidOTA" remote="github" revision="kitkat" />
-  <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" revision="stable/cm-11.0" />
+  <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ScreenRecorder" name="VentureROM-Legacy/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
   <project path="packages/apps/Settings" name="VentureROM-Legacy/android_packages_apps_Settings" remote="github" revision="kitkat"  />
-  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
+  <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -384,7 +384,7 @@
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" remote="cm" revision="stable/cm-11.0" />
+  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" remote="cm" revision="cm-11.0" />
   <project path="packages/providers/DownloadProvider" name="VentureROM-Legacy/android_packages_providers_DownloadProvider" remote="github" revision="kitkat" />
   <project path="packages/providers/MediaProvider" name="VentureROM-Legacy/android_packages_providers_MediaProvider" remote="github" revision="kitkat" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
