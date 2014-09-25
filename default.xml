@@ -22,6 +22,9 @@
            fetch="git://github.com"
            review="review.cyanogenmod.org" />
 
+  <remote  name="topaz"
+           fetch="https://github.com/Topazstix" />
+
   <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
            sync-c="true"
